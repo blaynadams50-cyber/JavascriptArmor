@@ -13,7 +13,7 @@ Advanced JavaScript Obfuscator for protecting source code.
 ![npm](https://img.shields.io/npm/v/jsarmor?logo=npm)
 ![downloads](https://img.shields.io/npm/dm/jsarmor?logo=npm)
 ![stars](https://img.shields.io/github/stars/Swp-dev/JavascriptArmor?logo=github)
-![license](https://img.shields.io/github/license/Swp-dev/JavascriptArmor)
+![license](https://img.shields.io/badge/license-JSArmor%20License-blue)
 
 </p>
 
