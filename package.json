@@ -33,9 +33,11 @@
   "files": [
   "cli",
   "core",
-  "utils"
+  "utils",
+  "docs"
 ],
 
   "author": "_kingktn",
-  "license": "MIT"
+  "license": "SEE LICENSE IN LICENSE"
+
 }
