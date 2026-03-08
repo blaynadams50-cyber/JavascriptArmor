@@ -1,28 +1,76 @@
-MIT License
+JSArmor License v2
 
 Copyright (c) 2026 Swp-dev
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to use,
-copy, modify, and distribute the Software, subject to the following conditions:
+This license governs the use of the JSArmor software.
+
+Permission is granted to use, modify, and distribute this software for
+personal, educational, and non-commercial purposes under the following
+conditions.
 
 1. Attribution Required
-   Any use, modification, or distribution of this Software must include clear
-   credit to the original author:
 
-   Author: Swp-dev
-   Project: JSArmor
+Any use, modification, or redistribution of this software must clearly
+credit the original author.
 
-2. Non-Commercial Use Only
-   The Software may NOT be sold, sublicensed, or used as part of any commercial
-   product or service without explicit permission from the author.
+Author: Swp-dev
+Project: JSArmor
 
-3. License Notice
-   This license and copyright notice must be included in all copies or
-   substantial portions of the Software.
+The credit must appear in:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+* documentation
+* repository
+* distributed binaries
+* CLI output (if applicable)
+
+2. Non-Commercial Restriction
+
+This software may NOT be sold, sublicensed, or included in any paid
+software, service, or product without explicit written permission
+from the author.
+
+This includes but is not limited to:
+
+* selling modified versions
+* bundling with commercial software
+* offering it as a paid obfuscation service
+
+3. No Removal of Author Signature
+
+You may not remove or alter:
+
+* author credits
+* runtime signatures
+* watermark identifiers
+* protection markers embedded in the software
+
+4. Redistribution Requirements
+
+If you distribute this software or modified versions, you must:
+
+* include this license
+* clearly indicate that the project is derived from JSArmor
+* provide attribution to the original author
+
+5. No False Representation
+
+You may not claim that you are the original creator of this software.
+
+6. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+
+7. Violations
+
+Any violation of these terms automatically revokes permission to
+use this software.
+
+For commercial licensing inquiries contact:
+
+https://eboy.asia/p.n
