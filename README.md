@@ -1,4 +1,8 @@
-# JSArmor
+<p align="center">
+<img src="docs/banner.jpg" width="300">
+</p>
+
+<h1 align="center">JSArmor</h1>
 
 <p align="center">
 Advanced JavaScript Obfuscator for protecting source code.
