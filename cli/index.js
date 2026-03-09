@@ -20,6 +20,8 @@ import { injectAntiDebug } from "../core/antidebug.js";
 import { antiBeautify } from "../core/beautifyGuard.js";
 import { selfDefend } from "../core/selfdefend.js";
 
+import { watermark } from "../utils/watermark.js";
+
 const neon = gradient(["#00ffff","#ff00ff","#00ff9f"]);
 
 try{
@@ -35,6 +37,14 @@ const outIndex = args.indexOf("-o");
 
 if(outIndex !== -1 && args[outIndex+1]){
 outputName = args[outIndex+1];
+}
+
+let user = "";
+
+const userIndex = args.indexOf("--user");
+
+if(userIndex !== -1 && args[userIndex+1]){
+user = args[userIndex+1];
 }
 
 if(!command || command === "help"){
@@ -88,10 +98,9 @@ code = code.slice(end);
 
 console.log(
 neon(`┌──────────────────────────────┐
-│     NodeJS Obfuscator v3     │
+│       JSArmor Version1.7     │
 └──────────────────────────────┘`)
 );
-
 const bar = new cliProgress.SingleBar({
 format:"progress [{bar}] {percentage}% | {value}/{total}",
 barCompleteChar:"█",
@@ -131,6 +140,7 @@ const runtimeJunk = generateDeadRuntime();
 
 const final =
 (shebang ? shebang + "\n" : "") +
+watermark(user) +
 injectAntiDebug() +
 antiBeautify() +
 selfDefend() +
@@ -145,7 +155,7 @@ if(!fs.existsSync(distDir)){
 fs.mkdirSync(distDir,{recursive:true});
 }
 
-const outFile = path.join(distDir,"obf.js");
+const outFile = path.join(distDir, outputName);
 
 fs.writeFileSync(outFile,final);
 
