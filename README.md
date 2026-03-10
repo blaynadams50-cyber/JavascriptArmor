@@ -59,8 +59,8 @@ npm install jsarmor
 Obfuscate a JavaScript file:
 
 ```bash
-jsarmor gen <main file>
-Ex: jsarmor gen index.js
+jsarmor gen <main file> --user <your name>
+Ex: jsarmor gen index.js --user Swp
 ```
 
 Output will be generated in:
