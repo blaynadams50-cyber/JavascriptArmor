@@ -114,7 +114,7 @@ console[_0x5f3b[0]](_0x5f3b[1]+' '+_0x5f3b[2])
 
 ---
 
-## Project Structure
+## Project Structure Version 1.7
 
 ```
 jsarmor
@@ -134,7 +134,8 @@ jsarmor
  │  ├ stringArray.js
  │  └ unicode.js
  └ utils/
-    └ random.js
+    ├ random.js
+    └ waternark.js
 ```
 
 ---
