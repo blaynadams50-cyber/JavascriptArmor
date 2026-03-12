@@ -209,8 +209,7 @@ https://tiktok.com/@niemtinthatxaxi
 
 ## License
 
-MIT License
-
+[JSARMOR LICENSE](https://github.com/Swp-dev/JavascriptArmor?tab=License-1-ov-file)
 ---
 
 <p align="center">
